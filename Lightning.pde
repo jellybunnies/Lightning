@@ -15,7 +15,7 @@ void setup()
 }
 void draw()
 {
-  random()*256),(int)(Math.random()*256),(int)(Math.random()*256));
+  stroke((int)(Math.random()*256),(int)(Math.random()*256),(int)(Math.random()*256));
   fill(0,0,0,50);
   
   while (endX < 500)
